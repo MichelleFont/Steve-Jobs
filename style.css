@@ -1,0 +1,61 @@
+body{
+   background-color:lightblue;
+    
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.highlighted {
+    font-size: 2em;
+    color: black;
+}
+
+nav {
+    margin: 20px;
+    text-align: center
+}
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+}
+ 
+a.sobre:hover{
+    background-color: yellow;
+    color: red;
+}
+
+div p::first-line{
+    color: red;
+}
+
+p.sobre a{
+    background-color: white;
+    padding: 7px;
+}
+
+.sobre:first-of-type a {
+    background-color: blue;
+    color: white; 
+}
+
+.productos{
+    list-style-type:decimal;
+    padding-left: 10px;
+}
+
+.productos li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
